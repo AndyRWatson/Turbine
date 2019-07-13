@@ -31,13 +31,11 @@
     }
   },
   "dependencies": {
-    "appmetrics-dash": "^5.0.0",
-    "appmetrics-prometheus": "^3.0.0",
-    "appmetrics-zipkin": "^1.1.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "log4js": "^4.0.2",
     "strong-supervisor": "^6.2.0",
+    "node-cmd": "^0",
     "ibm-cloud-env": "^0"
   },
   "devDependencies": {

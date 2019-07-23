@@ -1,8 +1,11 @@
-# node
+# Turbine
 
-A generated IBM Cloud application
+3D printed Turbine with wind speed controlled by a Raspberry Pi zero contained in the base.   
 
-[![](https://img.shields.io/badge/IBM_Cloud-powered-blue.svg)](https://cloud.ibm.com)
+Express application which creates an endpoint localhost:3000/setTurbine?speed=
+
+where speed is in the range 1 (fast) and 100 (slow/off)
+
 
 ## Run locally as Node.js application
 
@@ -12,16 +15,6 @@ npm test
 npm start
 ```
 
-## Build, run, and deploy using IDT
 
-```bash
-# Install needed dependencies:
-npm run idt:install
-# Build the docker image for your app:
-npm run idt:build
-# Run the app locally through docker:
-npm run idt:run
-# Deploy your app to IBM Cloud:
-npm run idt:deploy
 ```
 # Turbine

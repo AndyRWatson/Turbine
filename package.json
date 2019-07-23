@@ -35,7 +35,7 @@
     "express": "^4.16.4",
     "log4js": "^4.0.2",
     "strong-supervisor": "^6.2.0",
-    "node-cmd": "^0",
+    "node-cmd": "^3.0.0",
     "ibm-cloud-env": "^0"
   },
   "devDependencies": {

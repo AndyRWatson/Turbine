@@ -1,6 +1,6 @@
 # Turbine
 
-Node.js express application to control the turbine blade speed of a 3D printed wind turbine, controlled by a rasperry pi zero contained in the base.   The turbine itself can be printed and constructed from the following [instructions](https://github.com/AndyRWatson/Turbine).
+Node.js express application to control the turbine blade speed of a 3D printed wind turbine, controlled by a rasperry pi zero contained in the base.   The turbine itself can be printed and constructed from the following [instructions](https://github.com/AndyRWatson/turbine3D).
 
 The turbine Express itself is controlled by the endpoing
 

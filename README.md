@@ -20,14 +20,4 @@ where  **speed** is a numeric value in the range *1* (fast) and *100* (slow/off)
 5. run *./start.sh*
 6. start the turbine by running *npm start*
 
-## Run locally as Node.js application
-
-```bash
-npm install
-npm test
-npm start
-```
-
-
-```
 # Turbine

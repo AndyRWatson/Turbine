@@ -18,6 +18,6 @@ where  **speed** is a numeric value in the range *1* (fast) and *100* (slow/off)
 3. git clone this repository into the user directory
 4. cd into Turbine directory
 5. run *./start.sh*
-6. start the turbine by running *npm start*
+6. start the turbine express application by running *npm start*
 
 # Turbine

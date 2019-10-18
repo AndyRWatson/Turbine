@@ -14,7 +14,7 @@ where  **speed** is a numeric value in the range *1* (fast) and *100* (slow/off)
 ## Setup Instructions
 
 1. Create a raspbian disk image for use by the raspberry pi zero
-2. enable ssh support
+2. enable ssh support  (raspi-config)
 3. git clone this repository into the user directory
 4. cd into Turbine directory
 5. run *./start.sh*

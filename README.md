@@ -5,7 +5,7 @@ Node.js express application to control the turbine blade speed of a 3D printed w
 The turbine itself is controlled by the endpoint
 
 ```
-localhost:3000/setTurbine?speed=** <speed> **
+localhost:<port>/setTurbine?speed=** <speed> **
 ```
 where  **speed** is a numeric value in the range *1* (fast) and *100* (slow/off), or a value off **off** or **on**
 
@@ -34,7 +34,8 @@ Git clone this repo into your local file system
   ## nodeMCU (Arduino)
   1. Download Arduino IDE
      * https://www.arduino.cc/en/main/software
-  2. Open project
+  2. Open Arduino IDE and open project
+    * [./Turbine/Arduino/turbine.ino](https://github.com/AndyRWatson/Turbine/Arduino/Turbine.ino).
   3. Configure board and port
   4. Install prereq packages
   5. Upload to board
